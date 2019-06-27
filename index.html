@@ -1,113 +1,134 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Luncher</title>
-        <link href ='css/index.css' rel='stylesheet'>
+        <meta charset = "UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href = 'css/index.css' rel='stylesheet'>
     </head>
 <body>
-    <div class = 'menu-header'>
-        <header>
-            <nav>
-                <h1>Luncher</h1>
-                    <a href='#' class='menu'>Home</a>
-                    <a href='#' class='menu'>About</a>
-                    <a href='#' class='menu'>Features</a>
-                    <a href='#' class='menu'>Our Team</a>
-                    <a href='#' class='menu'>Contact</a>
-                    <button>login</button> 
+    <div class = 'page-container'>
+        <nav class ='nav-bar'>
+            <h1>Luncher</h1>
+            <div class ='nav-links'>
+                <div class = 'menu-icon-container'>
+                    <img src = 'images/apps.png'/>
+                </div>
+                <a class = 'mobile-hamburger' href = 'index.html'>Home</a>
+                <!-- <a class = 'mobile-hamburger'>About</a> -->
+                <!-- <a class = 'mobile-hamburger'>Features</a> -->
+                <a class = 'mobile-hamburger' href = 'about.html'>Our Team</a>
+                <!-- <a class = 'mobile-hamburger'>Contact</a> -->
+                <button>Log In</button>
             </nav>
-        </header>
-    </div> 
-
-<div class="header-container">
-    <h1>Loren Ipsom</h1>
-    <p> paragraph content tonchsont sonehi sotubsoandbghs.</p>
-    <button>Sign Up</button>
-</div>
-<img class = 'header-img' src ="#." alr='Image of a placeholder.'>
+        <div class = 'header-container'>
+            <div class='header-content'>
+                <h2>Luncher</h2>
+                <p>There are kids today in this country who go without student lunches. Luncher allows schools to broadcast the needs of their students by declaring an amount of donations that they would need to be fullfilled in order to provide lunches for those that go without.</p>
+                <button>Sign Up</button>
+            </div>
+        <div class = 'header-img'><img src ='images/janko-ferlic-qJVluHTPx7U-unsplash.jpg'/></div>
         </div>
-
         <section class = 'features'>
-            <div class ='features-heading'>
-                <h2>Lorem Ipsum</h2>
-                <p>subtext for the header</p>
+            <div class = 'features-heading'>
+                <h2>Features</h2>
+                <p>Check out some of our current features. We are always building and updating features to make your experience with Luncher the best.</p>
             </div>
-           
-            <div class = 'box-features-1'>
-                <div class ="box-features 1"></div>
-                    <img src =#/>
-                    <h3>Lorem ipsum</h3>
-                    <p>ldadhhsdndnnannd</p>
-            </div>
-            <div class = 'box-features-2'>
-                <div class ="box-features 1"></div>
-                    <img src =#/>
-                    <h3>Lorem ipsum</h3>
-                    <p>ldadhhsdndnnannd</p>
-            </div>
-            <div class = 'box-features-3'>
-                <div class ="box-features 1"></div>
-                    <img src =#/>
-                    <h3>Lorem ipsum</h3>
-                    <p>ldadhhsdndnnannd</p>
+            <div class = 'box-features'>
+                <div class = 'box-features-child'>
+                    <img src ='images/student.png'/>
+                    <h3>School Admin</h3>
+                    <p>Schools can create a profile via Luncher and request funds as needed so none of their students go without meals.</p>
+                </div>
+                <div class = 'box-features-child'>
+                    <img src ='images/bag.png'/>
+                    <h3>Donors</h3>
+                    <p>You can create an account today and donate to any school listed currently listed within the Luncher app.</p>
+                </div>
+                <div class = 'box-features-child'>
+                    <img src ='images/alarm-clocks.png'/>
+                    <h3>Security</h3>
+                    <p>With electronic transactions occurring constantly your privacy and security is top of mind to our developers.</p>
+                </div>
             </div>
         </section>
-        <section class ='about'>
-            <div class = 'about-content'>
+        <section class = 'about'>
+            <div class ='about-content'>
                 <h2>About</h2>
-                <p>paragraph content tonchsont sonehi sotubsoandbghs.</p>
-                <p>paragraph content tonchsont sonehi sotubsoandbghs.</p>
-                <p>paragraph content tonchsont sonehi sotubsoandbghs.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <button>Subscribe</button>
             </div>
-            <div class ="about-img">
-            <img src ="#"/>
+            <div class = 'about-img'>
+                <img src ='images/david-pennington-T-GjUWPW-oI-unsplash.jpg'/>
             </div>
         </section>
-        <section class ='team-container'>
+        <section class = 'team-container'>
             <div class = 'team-header'>
-                <h2>Lorem Ipsum</h2>
-                <p>paragraph content tonchsont sonehi sotubsoandbghs.</p>
+                <h2>The Team</h2>
+                <p>Meet the people who made this app possible. <a href = 'about.html'>Click here</a> for a short bio.</p>
             </div>
-            <div class ='team-content'>
-            <ul>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
-               <li><img src =#>Lorem Ipsum</img></li>
+            <div class = 'team-content'>
+                <ul>
+                    <li>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>James B.</p></img>
+                    </li>
+                    <li>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Noble O.</p></img>
+                    </li>
+                    <li>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Ramses B.</p></img>
+                    </li>
+                    <li>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Justine G.</p></img>
+                    </li>
+                    <li  class = 'lower-img'>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Kemberly E.</p></img>
+                    </li>
+                    <li  class = 'lower-img'>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Sarah L.</p></img>
+                    </li>
+                    <li  class = 'lower-img'>
+                            <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Nathan D.</p></img>
+                    </li>
+                    <li  class = 'lower-img'>
+                        <img src = 'images/robert-godwin-cdksyTqEXzo-unsplash.jpg'><p>Armando R.</p></img>
+                </li>
+                </ul>
             </div>
         </section>
         <section class = 'subscribe-container'>
-            <h2>Lorem Ipsum</h2>
-            <form>
-                <input type ="text" name="email" placeholder='Enter your email'>
-                <button>Subscribe</button>
-            </form>
-        </section>
-        <section class ='contact-container'>
-            <h2>Contact Us</h2>
-            <p>paragraph content tonchsont sonehi sotubsoandbghs.</p>
-            <form class='contact-form'>
-                <div class= 'name-email'>
-                    <input type ='text' name='name' placeholder='name'>
-                    <input type ='text' name='email' placeholder='email'>
-                 </div>
-                 <div class ='school-info'>
-                    <input type ='text' name='school-name' placeholder='School Name'>
-                    <input type ='text' name='phone-number' placeholder="Phone Number">
-                </div>
-                <input type ='text' name='message' placeholder="Message">
-                <div class ='btn-div'>
-                    <button class= 'submit-form-btn'>Submit Form</button>
-                </div>
-            </form>
-        </section>
-    </div>    
-
+                <h2>Subscribe Now!</h2>
+                <form >
+                    <input type = 'text' name ='email' placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </section>
+            <section class ='contact-container'>
+                <h2>Contact Us</h2>
+                <p>Have a school in need?<br>Fill out the form below and we'll contact you shortly.</p>                    
+                <form class = 'contact-form'>
+                    <div class = 'name-email'>
+                        <input type = 'text' name ='name' placeholder="Name">
+                        <input type = 'text' name ='email' placeholder="Email">
+                    </div>
+                    <div class = 'school-info'>
+                        <input type = 'text' name ='school-name' placeholder="School Name">
+                        <input type = 'text' name ='phone-number' placeholder="Phone Number">
+                    </div>
+                    <div class="message-input">
+                        <textarea cols="100" rows="20" placeholder="Message"></textarea>
+                    </div>
+                    <div class = 'btn-div'>
+                        <button class = 'submit-form-btn'>Submit Form</button>
+                    </div>
+                </form>
+            </section>
+            <!-- <footer>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                    <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            </footer> -->
+    </div>
 </body>
 </html>
