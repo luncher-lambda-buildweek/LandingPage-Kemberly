@@ -1,3 +1,4 @@
+//accordion
 class Panel{
     constructor(panel){
         this.openBtn = panel.querySelector('.panel-btn-open')
